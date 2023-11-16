@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgba(83,200,220,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    margin-top: 150px;
+}
+
+.caja_principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.imagen {
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    background-image: url(/assets/img/stop.png);
+}
+
+.imagen.Dance {
+    background-image: url(../img/Dance.gif);
+}
+
+#cuenta_regresiva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+}
+
+.titulo {
+    color: red;
+}
+
+.botones {
+    display: flex;
+}
+
+.botones button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.tiempo {
+    display: flex;
+}
+
+.tiempo span {
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.tiempo p {
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.imagen_stop {
+    margin-top: 50px;
+}
